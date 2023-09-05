@@ -1,4 +1,5 @@
 {
+  "homepage": "https://lgrao82.github.io/examplenews",
   "name": "newsapp",
   "version": "0.1.0",
   "private": true,
@@ -22,6 +23,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -45,6 +48,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "react-router-dom": "^6.15.0"
   }
 }
