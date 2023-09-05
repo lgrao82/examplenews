@@ -1,6 +1,6 @@
 import moment from "moment";
 
-export const navbarBrand = "City of Destiny";
+export const navbarBrand = "News App";
 export const header = (category) => `News - Top ${category} Headlines`;
 export const noFound = "No Results Found";
 export const searching = "Searching...";
